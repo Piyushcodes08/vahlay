@@ -10,7 +10,7 @@ import {
 import { db } from "../../firebaseConfig";
 import pdfMake from "pdfmake/build/pdfmake";
 import pdfFonts from "pdfmake/build/vfs_fonts";
-import Signature from "../../../public/assets/sign.png"
+const Signature = "/assets/sign.png";
 
 
 

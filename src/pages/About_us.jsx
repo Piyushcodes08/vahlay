@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { FaArrowRight, FaLinkedin, FaTwitter, FaQuoteLeft, FaGlobe, FaEnvelope } from "react-icons/fa";
 // Ensure this path is correct based on your folder structure. 
 // If it's in the public folder, you might need to use the string path in the video tag directly.
-import BGVideo from "../../public/assets/AboutUsBG.mp4"
+const BGVideo = "/assets/AboutUsBG.mp4";
 
 const About = () => {
   const [openDropdown, setOpenDropdown] = useState(null);

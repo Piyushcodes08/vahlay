@@ -6,7 +6,7 @@ import { db } from "./firebaseConfig"; // Check your path
 import { Helmet } from 'react-helmet-async';
 import slugify from "slugify";
 import { FaArrowRight, FaRocket, FaExclamationTriangle } from "react-icons/fa";
-import SolutionsBg from "../public/assets/BusinessSolutionsBG.png"
+const SolutionsBg = "/assets/BusinessSolutionsBG.png";
 
 // --- GLOBAL CACHE ---
 // Stores the fully assembled data structure (Categories + Services)

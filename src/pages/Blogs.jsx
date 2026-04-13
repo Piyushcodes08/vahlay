@@ -6,7 +6,7 @@ import slugify from "slugify";
 import { Helmet } from 'react-helmet-async';
 import { motion } from "framer-motion";
 import { FaCalendarAlt, FaUser, FaArrowRight } from "react-icons/fa";
-import BlogsBG from "../../public/assets/BlogsBG.png"
+const BlogsBG = "/assets/BlogsBG.png";
 
 // Helper to truncate text
 const truncateText = (text, wordLimit = 15) => {
