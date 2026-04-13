@@ -56,7 +56,7 @@ const ReportsPage = lazy(() => import("./pages/Admin/ReportsPage.jsx"));
 const ManageBlogs = lazy(() => import("./pages/Admin/ManageBlogs"));
 const Jobs = lazy(() => import("./pages/Admin/Jobs"));
 const ManageServices = lazy(() => import("./pages/Admin/ManageSevices"));
-const ManageSubservices = lazy(() => import("./pages/Admin/Managesubservices"));
+const ManageSubservices = lazy(() => import("./pages/Admin/ManageSubservices"));
 const ManageProjects = lazy(() => import("./pages/Admin/Manageprojects"));
 const ManageEmployees = lazy(() => import("./pages/Admin/Emp/MangeEmp"));
 const TrashEmp = lazy(() => import("./pages/Admin/Emp/TrashEmp"));
