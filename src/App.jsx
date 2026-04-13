@@ -29,7 +29,7 @@ const Copartners = lazy(() => import("./pages/copartners"));
 const Careers = lazy(() => import("./pages/careers/Careers"));
 const Jobdescription = lazy(() => import("./pages/careers/Jobdescription"));
 const JobApplicationForm = lazy(() => import("./pages/careers/Jobapplicationform"));
-const Terms = lazy(() => import("./pages/Terms"));
+const Terms = lazy(() => import("./pages/terms"));
 const Privacy = lazy(() => import("./pages/privacy"));
 const PageNotFound = lazy(() => import("./pages/Pagenotfound"));
 
